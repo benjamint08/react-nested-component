@@ -1,5 +1,7 @@
 # React Nested Component
 
+[View it in action](https://react-nested-component.p3pr.co/)
+
 ## Usage
 
 Copy the `src/NestedComponent.js` file into your project.
