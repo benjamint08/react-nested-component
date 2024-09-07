@@ -1,22 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import NestedComponent from './NestedComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Nested Components Test
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <NestedComponent title="Number 1">
+          <p>I am expanded</p>
+        </NestedComponent>
+        <NestedComponent title="Number 2">
+          <p>I am expanded</p>
+        </NestedComponent>
+        <NestedComponent title="Number 3">
+          <p>I am expanded</p>
+        </NestedComponent>
+        <NestedComponent title="Number 4">
+          <p>I am expanded</p>
+        </NestedComponent>
       </header>
     </div>
   );
